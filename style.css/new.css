@@ -185,7 +185,7 @@
 }
 
 .s-btn {
-    border-radius: 0px 50px 50px 0px ;
+    border-radius: 0px 50px 50px 0px;
     color: #FFF;
     width: 210px;
     height: 78px;
@@ -193,8 +193,46 @@
     margin-left: -30px;
 }
 
-.complex{
+.complex {
     display: flex;
     justify-content: center;
-    
+}
+
+/* section ended */
+
+.footer {
+    color: #FFF;
+    background-color: #070211;
+    width: 100%;
+    margin: auto;
+}
+
+.address {
+    padding-top: 120px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding:48px 632px 48px 640px;
+}
+
+.last {
+    padding:50px 140px 120px 140px ;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
 }
