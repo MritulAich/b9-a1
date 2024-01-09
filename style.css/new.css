@@ -1,0 +1,33 @@
+header {
+    margin: 50px 140px 6685px 140px;
+    border: 16px;
+    padding: ;
+}
+
+.banner-img {
+    background-image: url('../resources/Banner\ Image.png');
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+
+}
+
+.banner-content {
+    color: white;
+    /* font-family: font-family: 'Inter', sans-serif; */
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.b1 {
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+}
+
+
+.b2 {
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 383px;
+}
