@@ -1,25 +1,22 @@
-header {
-    margin: 50px 140px 6685px 140px;
+.header {
+    margin: 50px 0px 100px 0px;
     border: 16px;
-    padding: ;
+    text-align: center;
 }
 
 .banner-img {
     background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
     background-position: center;
-    width: 1320px;
+    background-size: auto width: 1320px;
     height: 600px;
-
-}
-
-.banner-content {
-    color: white;
-    /* font-family: font-family: 'Inter', sans-serif; */
     font-family: 'Merriweather', serif;
     text-align: center;
+    
 }
 
 .b1 {
+    color: white;
     font-size: 32px;
     font-weight: 400;
     padding-top: 177px;
@@ -27,7 +24,40 @@ header {
 
 
 .b2 {
+    color: white;
     font-size: 72px;
     font-weight: 900;
     padding-bottom: 383px;
+}
+
+
+/* section part */
+
+.discount {
+    text-align: center;
+}
+
+.sixty-five {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+
+.our {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.all {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    font: 3em sans-serif;
+
 }
