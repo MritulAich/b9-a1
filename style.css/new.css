@@ -68,8 +68,6 @@
     width: 1320px;
     height: 600px;
     margin: 120px auto auto auto;
-    
-   
 }
 
 .welcome-greetings {
@@ -92,17 +90,111 @@
 }
 
 .btn {
-    background-color: #070211;   
+    background-color: #070211;
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     margin-left: 158px;
     margin-top: 48px;
 }
-.belun{
-   position: absolute;
-   padding: 68px 138px 68px 862px;
+
+.belun {
+    position: absolute;
+    padding: 68px 138px 68px 862px;
 }
 
+/* section part 3 */
+
+.portfolio {
+    margin: 120px 25% auto 25%;
+}
+
+.gifts {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.awesome {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.lorem {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.image {
+    display: grid;
+    column-gap: 24px;
+    row-gap: 24px;
+    grid-template-columns: repeat(3, 0.05fr);
+}
+
+/* section part 4 */
+
+.subscribe {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.sc {
+    padding: 80px 585px 40px 585px;
+
+}
+
+.sn {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.sd {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.email {
+    border-radius: 50px;
+    width: 600px;
+    height: 72px;
+}
+
+.s-btn {
+    border-radius: 0px 50px 50px 0px ;
+    color: #FFF;
+    width: 210px;
+    height: 78px;
+    background: #F00;
+    margin-left: -30px;
+}
+
+.complex{
+    display: flex;
+    justify-content: center;
+    
+}
